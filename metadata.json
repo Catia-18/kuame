@@ -1,0 +1,6 @@
+{
+  "name": "KIMA KUAMI FITNESS APP",
+  "description": "Plataforma digital premium de gestão e acompanhamento fitness da Kima Kuami para clientes, personal trainers e administradores em Angola.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

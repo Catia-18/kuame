@@ -1,0 +1,64 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  :root {
+    --kk-bg: #101312;
+    --kk-surface: #1C2421;
+    --kk-surface-elevated: #232D29;
+    --kk-lime: #B7F34A;
+    --kk-emerald: #245C43;
+    --kk-text: #F5F7F3;
+    --kk-muted: #929B95;
+  }
+
+  html {
+    font-family: 'Manrope', system-ui, -apple-system, sans-serif;
+    background-color: #101312;
+    color: #F5F7F3;
+  }
+
+  h1, h2, h3, .font-display {
+    font-family: 'Outfit', 'Manrope', system-ui, sans-serif;
+  }
+
+  .font-mono-tabular {
+    font-family: 'JetBrains Mono', monospace;
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+.pb-safe {
+  padding-bottom: max(0.5rem, env(safe-area-inset-bottom));
+}
+
+/* Custom subtle scrollbars for dark mode */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #101312;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #245C43;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #B7F34A;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
