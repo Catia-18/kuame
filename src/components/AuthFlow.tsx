@@ -258,7 +258,7 @@ export const AuthFlow: React.FC = () => {
         <div className="flex-1 lg:col-span-5 flex flex-col justify-between p-6 sm:p-10 lg:p-14 max-w-xl mx-auto w-full">
           <div className="my-auto space-y-5">
             <p className="text-xs font-semibold tracking-wide text-[#B7F34A]">
-              KIMA KUAMI FITNESS APP · NAMIBE, AO
+              KIMA KUAMI FITNESS APP · NAMIBE AO
             </p>
             <h1 className="font-display text-3xl sm:text-5xl font-extrabold tracking-tight text-[#F5F7F3] leading-tight text-balance">
               A tua evolução começa aqui.
@@ -603,7 +603,7 @@ export const AuthFlow: React.FC = () => {
             <p className="text-xs font-semibold text-[#B7F34A]">Novo Membro · Perfil Cliente</p>
             <h1 className="font-display text-2xl font-bold text-[#F5F7F3] mt-1">Criar conta</h1>
             <p className="text-xs text-[#929B95] mt-1">
-              Junta-te à Kima Kuami e acompanha os teus treinos no Namibe, AO.
+              Junta-te à Kima Kuami e acompanha os teus treinos em Namibe AO.
             </p>
           </div>
 

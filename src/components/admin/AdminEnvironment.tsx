@@ -226,7 +226,7 @@ export const AdminEnvironment: React.FC = () => {
                     Olá, {currentUser.name}
                   </h1>
                   <p className="text-xs text-[#929B95] mt-0.5">
-                    17 de Novembro de 2026 · Sede Namibe, AO
+                    17 de Novembro de 2026 · Localização: Namibe AO
                   </p>
                 </div>
 

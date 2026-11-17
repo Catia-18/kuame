@@ -29,7 +29,7 @@ import {
   INITIAL_WORKOUT_PLANS,
 } from '../data/mockData';
 
-const STORAGE_KEY = 'kima_kuami_prototype_v2';
+const STORAGE_KEY = 'kima_kuami_prototype_v3';
 
 interface PersistedState {
   users: UserAccount[];
@@ -423,7 +423,7 @@ export const AppStateProvider: React.FC<{ children: React.ReactNode }> = ({ chil
       time: input.time,
       durationMinutes: 60,
       type: input.type,
-      location: input.location || 'Zona de Treino · Namibe, AO',
+      location: input.location || 'Zona de Treino · Namibe AO',
       status: state.settings.autoConfirmSessions ? 'Confirmada' : 'Pendente',
     };
 

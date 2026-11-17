@@ -69,7 +69,7 @@ export const ClientSessionsModule: React.FC = () => {
       date: selectedDate,
       time: selectedTime,
       type: sessionType,
-      location: 'Sala Principal · Namibe, AO',
+      location: 'Sala Principal · Namibe AO',
     });
     setConfirmedBanner(
       `Sessão marcada com ${selectedTrainer.name} para ${selectedDate} às ${selectedTime}.`
@@ -395,7 +395,7 @@ export const ClientSessionsModule: React.FC = () => {
                 </div>
                 <div className="flex justify-between py-2">
                   <span className="text-[#929B95]">Local</span>
-                  <span className="font-medium text-[#F5F7F3]">Kima Kuami · Namibe, AO</span>
+                  <span className="font-medium text-[#F5F7F3]">Namibe AO</span>
                 </div>
               </div>
 

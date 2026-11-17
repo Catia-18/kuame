@@ -33,7 +33,7 @@ const PAYMENT_METHODS: { id: PaymentMethod; desc: string; icon: React.ReactNode 
   },
   {
     id: 'Pagamento Presencial',
-    desc: 'Liquidação na receção do ginásio no Namibe, AO',
+    desc: 'Liquidação na receção do ginásio em Namibe AO',
     icon: <Store className="w-4 h-4 text-[#B7F34A]" />,
   },
 ];

@@ -450,7 +450,7 @@ export const ClientEnvironment: React.FC = () => {
                 </div>
                 <div className="flex justify-between py-2">
                   <span className="text-[#929B95]">Unidade Kima Kuami</span>
-                  <span className="font-semibold text-[#F5F7F3]">Namibe, AO</span>
+                  <span className="font-semibold text-[#F5F7F3]">Namibe AO</span>
                 </div>
               </div>
 

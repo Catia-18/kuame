@@ -64,7 +64,7 @@ app.post('/api/ai/chat', async (req, res) => {
 - Progresso semanal: ${userContext.weeklyCompleted ?? 0} de ${userContext.weeklyTarget ?? 5} treinos concluídos`
       : '';
 
-    const systemInstruction = `És a Kima Kuami AI, o assistente inteligente oficial do ginásio Kima Kuami em Angola (Namibe, AO).
+    const systemInstruction = `És a Kima Kuami AI, o assistente inteligente oficial do ginásio Kima Kuami em Namibe AO.
 Responde SEMPRE em Português de Angola claro, motivador, técnico mas acessível e bem estruturado.
 Usa formatação limpa com tópicos curtos quando recomendares exercícios, séries, repetições ou hábitos de alimentação/recuperação.
 ${contextSummary}
